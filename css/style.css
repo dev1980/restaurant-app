@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://jolly-kalam-23776e.netlify.app/restaurantwebsite/assets/images/topography.svg"),
+    linear-gradient(110deg, rgb(249, 61, 102), rgb(109, 71, 217));
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    background-attachment: fixed;
+    letter-spacing: -1px;
+    margin: 50px;
+}
+
+/* .container {
+    width: 80%;
+    max-width: 1200px;
+    margin:  0  auto;
+} */
+
+header {
+    border: 1px solid green;
+    padding: 20px 0;
+}
