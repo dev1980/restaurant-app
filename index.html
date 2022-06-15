@@ -11,8 +11,16 @@
 <body>
     <div class="wrapper">
         <header>
-       <button> <i class="fa fa-bars" style="margin-right:10px;"> </i>Menu</button> 
-       <nav></nav>
+       <button class="menu__bar"> <i class="fa fa-bars" style="margin-right:10px;"> </i>Menu</button> 
+       <nav class="nav">
+        <ul class="nav__list">
+            <li><a href="#">Tacos</a></li>
+            <li><a href="#">Beers</a></li>
+            <li><a href="#">wines</a></li>
+            <li><a href="#">Desserts</a></li>
+            <li><a href="#">Reservations</a></li>
+        </ul>
+       </nav>
     </header>
 
   <div class="top">
@@ -21,11 +29,11 @@
         <p class="top__p">Pretty Good Tacos!</p>
     </header>
     
-    <div class="price1">
+    <div class="price1 p1">
         <p class="price">$1.99</p>
         <p class="price__text">Tacos</p>
     </div>
-    <div class="price1">
+    <div class="price1 p2">
         <p class="price">$3.99</p>
         <p class="price__text">Kombucha</p>
     </div>
@@ -65,7 +73,7 @@
 <!-- start about section -->
 
 <section class="about">
-    <img src="https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png" alt="Featured Taco">
+    <img src="	https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/queso-taco.png" alt="Featured Taco">
 
     <div class="about__details">
         <h2>Featured Taco</h2>
@@ -81,8 +89,8 @@
 <!-- start of gallery -->
 
 <section class="gallery">
-    <h2>Instant Grams</h2>
-    <img src="https://source.unsplash.com/random/350x251" alt="image 1">
+    <h2 class="gallery__h2">Instant Grams</h2>
+    <img src="https://source.unsplash.com/random/202x202" alt="image 1">
     <img src="https://source.unsplash.com/random/202x202" alt="image 2">
     <img src="https://source.unsplash.com/random/203x203" alt="image 3">
     <img src="https://source.unsplash.com/random/204x204" alt="image 4">
